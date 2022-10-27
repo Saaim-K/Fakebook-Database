@@ -1,0 +1,89 @@
+.createPost{
+    height: auto;
+    background-color: #3A3B3C;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 20px;
+    margin-top: 20px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.createPost-input-box {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.postImage {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.createPost-input {
+    height: 40px;
+    width: 415px;
+    border-radius: 20px;
+    border: none;
+    font-size: 18px;
+    padding-left: 10px;
+    background-color: #242526;
+    color: #a5aab1;
+    padding: 0px 10px;
+}
+
+.createPost-input:focus {
+    outline: none;
+}
+
+.createPost-button {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+.createPost-live,
+.createPost-gallery,
+.createPost-feeling {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin-top: 20px;
+    color: #a5aab1;
+}
+
+.live-icon {
+    color: rgb(224, 69, 69);
+    font-size: 30px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.gallery-icon {
+    color: rgba(71, 202, 71, 0.842);
+    font-size: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.feeling-icon {
+    color: rgba(248, 248, 0, 0.829);
+    font-size: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.post {
+    height: auto;
+    background-color: #3A3B3C;
+    display: flex;
+    padding: 5px;
+    border-radius: 20px;
+    margin-top: 20px;
+    color: #DDDFE3;
+    font-weight: 550;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}

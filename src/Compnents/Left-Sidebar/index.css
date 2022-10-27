@@ -1,0 +1,23 @@
+.leftSidebar {
+    width: 300px;
+    background-color: #18191A;
+    color: #DDDFE3;
+}
+
+.leftSidebar div {
+    font-weight: 550;
+    padding: 10px;
+    margin: 0px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.leftSidebar img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.leftSidebar-profile {
+    border-radius: 50%;
+}
