@@ -5,7 +5,7 @@
     flex-direction: column;
     padding: 5px;
     border-radius: 20px;
-    margin-top: 20px;
+    margin-top: 10px;
     font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -82,8 +82,9 @@
     display: flex;
     padding: 5px;
     border-radius: 20px;
-    margin-top: 20px;
+    margin-top: 10px;
+    font-size: 16px;
     color: #DDDFE3;
-    font-weight: 550;
-    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-family: 'Segoe UI',Tahoma, Geneva, Verdana, sans-serif;
 }

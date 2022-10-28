@@ -12,9 +12,10 @@ export function Post() {
                 <div><img src={img} className='postImage' alt="" /></div>
                 <div>
                     <span>Saaim Khan</span>
-                    <span></span>
+                    <span>sdfd</span>
                 </div>
             </div>
+            {console.log( new Date().getTime )}
         </>
     )
 }
