@@ -1,41 +1,29 @@
 import React from 'react'
+import { useState, useEffect } from 'react';
 import './index.css'
 import img from '../../images/Saaim.jpg'
 import { RiLiveFill } from "react-icons/ri";
 import { FaPhotoVideo } from "react-icons/fa";
 import { MdEmojiEmotions } from "react-icons/md";
 
-export function Post() {
-    return (
-        <>
-            <div className="post">
-                <div><img src={img} className='postImage' alt="" /></div>
-                <div>
-                    <span>Saaim Khan</span>
-                    <span>sdfd</span>
-                </div>
-            </div>
-            {console.log( new Date().getTime )}
-        </>
-    )
-}
-
-
-export function Stories() {
-    return (
-        <div className="stories">
-
-        </div>
-    )
-}
-
 
 export function CreatePost() {
+    const [postText, setPostText] = useState('')
+
+    useEffect(() => {
+
+    }, [])
+
+    const text = (e) => {
+        e.preventDefault()
+        console.log('form submitted');
+    }
+
     return (
         <div className="createPost">
             <div className='createPost-input-box'>
                 <span> <img src={img} className='postImage' width='100px' alt="" /></span>
-                <span><input type="text" className='createPost-input' placeholder="What's on your mind, Saaim?" /></span>
+                <span><form onSubmit={text} ><input type="text" className='createPost-input' placeholder="What's on your mind, Saaim?" /></form></span>
             </div>
             <div className='createPost-button'>
                 <div className='createPost-live'>
@@ -52,8 +40,30 @@ export function CreatePost() {
                 </div>
             </div>
         </div>
-
-
-
     )
 }
+
+export function Post() {
+    return (
+        <>
+            <div className="post">
+                <div><img src={img} className='postImage' alt="" /></div>
+                <div>
+                    <span>Saaim Khan</span>
+                    <span>sdfd</span>
+                </div>
+            </div>
+            {console.log(new Date().getTime)}
+        </>
+    )
+}
+
+
+// export function Stories() {
+//     return (
+//         <div className="stories">
+
+//         </div>
+//     )
+// }
+
